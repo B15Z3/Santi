@@ -1,9 +1,8 @@
-!DOCTYPE html
+<!DOCTYPE html>
 <head>
-  <title>\
+  <title>
   kkkkkkk  
   </title>
-  p: color:blue;
   
 </head>
 <body>
