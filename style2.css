@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	background-color: lightblue;
+}
+#header{
+	background-color: #3fb5af;
+	padding: 5px;
+}
+#logo{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#header-name{
+	font-size: 50px;
+	color: black;
+	margin: 0;
+	text-shadow: 1px 1px gray;
+}
+#menu {
+	display: flex;
+	background-color: #4ea6a1;
+	justify-content: right;
+	flex-direction: row;
+}
+.menu-about {
+	border-left: 3px solid black; 
+	border-right: 3px solid black;
+}
+
+.menu-home {
+	border-left: 3px solid black; 
+}
+
+.menu-contact {
+	border-right: 3px solid black;
+}
+#menu div a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+#content{
+	display: flex;
+}
+.content-right{
+	width: 100%;
+	padding: 10px;
+}	
+.content-left{
+	width: 20%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	background-color:#3fb5af;
+}
+.item1{
+	border: 3px solid black;
+	padding: 20px;
+	text-align: center;
+	background-color:#3fb5af;
+}
+.item2{
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	padding: 20px;
+	text-align: center;
+	background-color:#3fb5af;
+}
+.item3{
+	border: 3px solid black;
+	padding: 20px;
+	text-align: center;
+	background-color:#3fb5af;
+}
+.image-left{
+	float: left;
+	padding: 10px;
+}
+.image-right{
+	float: right;
+	padding: 10px;
+}
+.content-right p{
+	text-align:  left;
+}
+
+
+	
